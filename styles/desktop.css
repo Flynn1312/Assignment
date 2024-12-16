@@ -1,0 +1,220 @@
+.flex-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center; 
+  } 
+  #footer {
+    color: #0a56a2;
+    background-color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}  
+
+.menuborderleft{
+  border-left-style: solid; 
+  border-color: #01002c;
+  padding-left: 50px;
+}
+.menuborderend{
+  border-left-style: solid; 
+  border-right-style: solid; 
+  border-color: #01002c;
+  padding-left: 50px;
+}
+
+a:link{
+  text-decoration:none;
+  color:#0a56a2;
+}
+a:visited{
+  text-decoration:none;
+  color:#3a96c8;
+}
+a:hover{
+  text-decoration:underline;
+  color:#01002c;
+}
+a:active{
+  text-decoration:underline;
+  color:#1b59bd;
+} 
+
+.slider {
+  width: 100%;
+  min-width: 300px;
+  height: 270px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.4s ease-in-out;
+}
+
+.slides img {
+  max-width: 100%;
+  height: auto;
+}
+
+.aboutus {
+  color: #ffffff; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex; 
+  flex-direction: row;
+  font-size: 25px; 
+  margin-top: 0px;
+  margin: 40px;
+  justify-content:space-evenly;
+  align-items: center;
+  
+} 
+.howtofindus {
+  color: #ffffff; 
+  background-color: #01002c;
+  margin: 0px;
+  padding: 50px; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex; 
+  flex-direction: row;
+  font-size: 30px;
+  justify-content:space-evenly;
+  align-items: center;
+} 
+
+.course {
+  color: #ffffff; 
+  background-color: #01002c;
+  margin: 0px;
+  padding: 50px; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex; 
+  flex-direction: row;
+  font-size: 20px;
+  justify-content:space-evenly;
+  align-items: center; 
+} 
+.business {
+  color: #ffffff; 
+  background-color: #01002c;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px; 
+  margin-left: 150px;
+  margin-right: 150px;
+}  
+.facilities {
+  color: #ffffff; 
+  background-color: #01002c;
+  margin: 0px;
+  padding: 50px; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  
+} 
+.facilitiesflex{
+  display: flex;
+}
+.mapimg{
+  width: 700px; 
+  height: 500px;
+  background-color: #01002c;
+  margin: 0px;
+  padding: 55px; 
+}
+.learningres {
+  color: #ffffff; 
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 20px;
+  align-items: center; 
+} 
+.backcol {
+  background-color: #01002c;
+  margin: 0px;
+  padding: 50px;
+}
+.computingimage{
+  width: 650px; 
+  height: 434px;
+  margin: 20px;
+}
+a {
+  font-size: 20px;
+}
+
+h2{
+  color: #ffffff; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+} 
+
+.home{
+  display: flex; 
+  flex-direction: row; 
+  background-color: #01002c;
+  margin: 0px;
+  padding: 0px; 
+  align-items: center;
+} 
+
+.aboutimage{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 40px;
+  width: 500px; 
+  height: 500px;
+}
+
+.coursespage 
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.dropdown {
+  float: left;
+  overflow: hidden; 
+  border-left-style: solid; 
+  border-color: #01002c;
+  padding-left: 50px;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  border: none;
+  font-size: 20px;  
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0; 
+  color: #0a56a2;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color:#3a96c8; 
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+} 
+
+.show {
+  display: block;}
+
+.locationmap{
+  width: 600px; 
+  height: 450px;
+}
